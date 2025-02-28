@@ -8,5 +8,3 @@ export default function Navbar() {
     </View>
   )
 }
-
-const styles = StyleSheet.create({})
