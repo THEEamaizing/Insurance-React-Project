@@ -1,10 +1,23 @@
-import { StyleSheet, Text, View } from 'react-native'
+
 import React from 'react'
 
-export default function Navbar() {
+ function Navbar() {
   return (
-    <View>
-      <Text>Navbar</Text>
-    </View>
+    <>
+      <div>   <address>hello nice to meet you </address>
+      
+       <a href="contracts"></a>,
+       <a href="contracts"></a>
+       <a href="Products"></a>
+       <a href="About us"></a>
+       <a href="Blogg Site"></a>
+      </div> 
+    </>
+      
   )
-}
+};
+
+export default Navbar 
+
+
+
