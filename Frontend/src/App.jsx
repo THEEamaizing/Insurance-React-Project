@@ -1,17 +1,18 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Pages from './assets/Homepage/Pages/Pages';
 
-import Navbar from './assets/Component/Navbar'
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Navbar/>
+      <Pages/>
+    
     </>
-  )
+  );
 }
 
 export default App
