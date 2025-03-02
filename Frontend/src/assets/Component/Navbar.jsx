@@ -4,16 +4,17 @@ import React from 'react'
  function Navbar() {
   return (
     <>
-      <div>   <address>hello nice to meet you </address>
-      
-       <a href="contracts"></a>,
-       <a href="contracts"></a>
-       <a href="Products"></a>
-       <a href="About us"></a>
-       <a href="Blogg Site"></a>
-      </div> 
+    <nav>
+        <p>Hello,Welcome Jub!</p>
+      <ul>
+        <li><a href= "contacts">Contacts</a></li>
+        <li><a href="products">Products</a></li>
+        <li><a href="about">About Us</a></li>
+        <li><a href="blog">Blog Site</a></li>
+      </ul>
+    </nav>
     </>
-      
+   
   )
 };
 
