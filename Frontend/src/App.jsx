@@ -1,7 +1,11 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { useState } from 'react'
-import Pages from './assets/Homepage/Pages/Pages';
 
+import { useState } from 'react'
+import Homepage from '../src/Pages/Homepage';
+import Aboupage from './Pages/Aboupage';
+import { Routes,Route } from 'react-router-dom';
+import Purchasepage from './Pages/Purchasepage';
+import Contractpage from './Pages/Contractpage';
+import Visionpage from './Pages/Visionpage';
 
 
 function App() {
@@ -9,7 +13,19 @@ function App() {
 
   return (
     <>
-      <Pages/>
+      <Routes>
+        <Route path='/' element={<Homepage/>}/>
+      
+        <Route path='/About' element={<Aboupage/>}/> 
+
+        <Route path='/Products' element={<Purchasepage/>}/>
+
+        <Route path='/Contract' element={<Contractpage/>}/>
+
+        <Route path='/Vision' element={<Visionpage/>}/>
+        
+      </Routes>
+     
     
     </>
   );
