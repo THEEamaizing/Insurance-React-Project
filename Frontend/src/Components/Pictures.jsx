@@ -1,6 +1,7 @@
 import React from 'react'
 import Pic1 from'../assets/Images/Dalle1.webp' 
 import Pic2 from '../assets/Images/Dalle2.webp'
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';

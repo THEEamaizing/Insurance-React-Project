@@ -6,7 +6,7 @@ import { Routes,Route } from 'react-router-dom';
 import Purchasepage from './Pages/Purchasepage';
 import Contractpage from './Pages/Contractpage';
 import Visionpage from './Pages/Visionpage';
-
+import Branches from './Components/Branches';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,7 +24,10 @@ function App() {
 
         <Route path='/Vision' element={<Visionpage/>}/>
         
+        <Route path='/Branches' element={<Branches/>}/>
+        
       </Routes>
+      
      
     
     </>

@@ -2,14 +2,17 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='relative flex flex-col items-center justify-center min-w-screen'>
-        <div className= 'bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...'>
-            <footer>
-              <p>&copy; 2024 Website. All rights reserved.</p>
-              <p>Available in social media platforms</p>
-            </footer>
-          </div> 
-    </div>
+    <div className="relative flex flex-col items-center justify-center min-w-screen">
+  <div className="bg-gradient-to-r from-teal-500 via-blue-500 to-purple-600 py-8">
+    <footer className="text-center text-white">
+      <div className="mb-4">
+        <p>&copy; 2024 Website. All rights reserved.</p>
+        <p>Crafted with care and creativity.</p>
+      </div>
+    </footer>
+  </div>
+</div>
+
   )
 }
 
