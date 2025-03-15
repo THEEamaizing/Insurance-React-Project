@@ -7,6 +7,8 @@ import Purchasepage from './Pages/Purchasepage';
 import Contractpage from './Pages/Contractpage';
 import Visionpage from './Pages/Visionpage';
 import Branches from './Components/Branches';
+import Login from './Components/Login';
+import Signup from './Components/Signup';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,6 +27,11 @@ function App() {
         <Route path='/Vision' element={<Visionpage/>}/>
         
         <Route path='/Branches' element={<Branches/>}/>
+
+        <Route path='/Login' element={<Login/>}/>
+
+        <Route path='/Signup' element={<Signup/>}/>
+
         
       </Routes>
       
